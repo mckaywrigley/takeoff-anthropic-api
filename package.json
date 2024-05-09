@@ -1,17 +1,14 @@
 {
   "type": "module",
-  "name": "typescript-starter",
+  "name": "takeoff-anthropic-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "This module is a guide to the Anthropic API.",
   "main": "index.js",
-  "scripts": {
-    "start": "tsx index.ts"
-  },
+  "scripts": {},
   "author": "Mckay Wrigley",
   "license": "MIT",
   "devDependencies": {
-    "dotenv": "^16.4.5",
-    "openai": "^4.38.2",
-    "tsx": "^4.9.0"
+    "@anthropic-ai/sdk": "^0.20.8",
+    "dotenv": "^16.4.5"
   }
 }
